@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="my-balance">
+        <p>My balance</p>
+        <h2>&dollar;921.48</h2>
+        <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    </div>
+    <div class="chart-container">
+        <h2>Spending - Last 7 days</h2>
+        <div class="chart">
+            <div id="mon" data-tooltip="mon" class="day"></div>
+            <div id="tue" data-tooltip="tue" class="day"></div>
+            <div id="wed" data-tooltip="wed" class="day"></div>
+            <div id="thu" data-tooltip="thu" class="day"></div>
+            <div id="fri" data-tooltip="fri" class="day"></div>
+            <div id="sat" data-tooltip="sat" class="day"></div>
+            <div id="sun" data-tooltip="sun" class="day"></div>
+        </div>
+        <div class="tags">
+            <p>mon</p>
+            <p>tue</p>
+            <p>wed</p>
+            <p>thu</p>
+            <p>fri</p>
+            <p>sat</p>
+            <p>sun</p>
+        </div>
+        <hr class="line">
+        <div class="total-box">
+            <div class="left">
+                <p>Total this month</p>
+                <h2>&dollar;478.33</h2>
+            </div>
+            <div class="right">
+                <h4>+2.4%</h4>
+                <p>from last month</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
